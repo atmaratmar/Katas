@@ -24,7 +24,7 @@ namespace Katas
                     char.ToUpper(letters[i]) : letters[i];
 
             }
-           string result=  string.Join("", letters);
+            string result=  string.Join("", letters);
             return result.Replace(" ", string.Empty);
         }
     }
